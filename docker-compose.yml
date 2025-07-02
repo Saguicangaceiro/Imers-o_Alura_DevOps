@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    container_name: imersao-api
+    # O comando é herdado do Dockerfile, que já inclui "--reload"
+    ports:
+      - "8000:8000"
+    volumes:
+      # Monta o diretório atual no container para habilitar o live-reload
+      - .:/app

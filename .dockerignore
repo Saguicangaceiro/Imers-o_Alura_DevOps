@@ -1,0 +1,13 @@
+# Ignorar o ambiente virtual
+venv/
+
+# Ignorar caches do Python
+__pycache__/
+*.pyc
+
+# Ignorar o banco de dados SQLite (deve ser gerenciado por volumes)
+escola.db
+
+# Ignorar arquivos do Git
+.git
+.gitignore
